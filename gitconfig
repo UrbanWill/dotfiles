@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = willian.urban@gmail.com
+	name = Will Urban
