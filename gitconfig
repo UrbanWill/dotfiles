@@ -37,6 +37,7 @@
 
   # Removes a file from the index
   unstage = reset HEAD --
+	fame = !python -m gitfame
 
 [help]
   autocorrect = 1
@@ -50,5 +51,5 @@
 [pull]
   rebase = false
 [user]
-	email = willian.urban@gmail.com
+	email = will.urban.dev@gmail.com
 	name = Will Urban

@@ -69,3 +69,22 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/will/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/will/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/will/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/will/google-cloud-sdk/completion.zsh.inc'; fi
+
+# bit
+export PATH="$PATH:/Users/will/bin"
+# bit endexport PATH=$(npm bin -g):$PATH
+export PATH=$(yarn global bin):$PATH
+export PATH=$(yarn global bin):$PATH
+
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:/Users/will/.foundry/bin"
+eval "$(direnv hook zsh)"
+
+export PATH="$PATH:/Users/will/.huff/bin"
+Export FLEEK_API_KEY=1V/2F2dFqaEQUvqxktpOeVF1lIYxFzHVr2PwphLRZ/E==

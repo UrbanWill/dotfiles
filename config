@@ -1,4 +1,12 @@
+#user1 will-vhs
 Host *
   UseKeychain yes
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_ed25519
+
+#user2 willurban
+Host github.com-user2
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_rsa_will-urban
+   IdentitiesOnly yes
